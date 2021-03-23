@@ -1,0 +1,14 @@
+{
+  "name": "server-node",
+  "version": "1.0.0",
+  "description": "api server for app mobile",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "lucas.lvn",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
