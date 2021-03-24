@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
           ],
         ),
         body: Center(
-          child: Text('Hello World'),
+          child: Text('Hello Album'),
         ),
       ),
     );
