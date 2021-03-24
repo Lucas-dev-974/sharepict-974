@@ -18,12 +18,12 @@ class MyApp extends StatelessWidget {
               style: TextButton.styleFrom(primary: Colors.white),
               onPressed: () {},
               icon: Icon(Icons.account_circle),
-              label: Text('Favorites'),
+              label: Text('Toto'),
             ),
           ],
         ),
         body: Center(
-          child: Text('Hello World'),
+          child: Text('Hello Album'),
         ),
       ),
     );
