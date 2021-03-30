@@ -1,10 +1,8 @@
-const db = 'mysql://root:root974@localhost:3306/sharepicts_974'
-const Sequelize = require('sequelize')
-const sequelize = new Sequelize(db, {
-    operatorsAliases:  false
-})
+const { Sequelize, DataTypes, Model } = require('sequelize')
+const sequelize = require('./init_db.js')
 
-const albums_shared = sequelize.define('albums_shared', {
+class AlbumsShared extends Model{}
+AlbumsShared.init({
     id:{
         type:Sequelize.INTEGER,
         allowNull:false,
@@ -15,6 +13,7 @@ const albums_shared = sequelize.define('albums_shared', {
     user_id: Sequelize.INTEGER, 
     album_id: Sequelize.INTEGER,
     user_shared_id: Sequelize.INTEGER,
+}, {  sequelize, modelName:"users" 
 })
 
-module.exports = albums_shared
+module.exports = AlbumsShared

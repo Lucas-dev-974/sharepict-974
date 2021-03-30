@@ -1,10 +1,8 @@
-const db = 'mysql://root:root974@localhost:3306/sharepicts_974'
-const Sequelize = require('sequelize')
-const sequelize = new Sequelize(db, {
-    operatorsAliases:  false
-})
+const { Sequelize, DataTypes, Model } = require('sequelize')
+const sequelize = require('./init_db.js')
 
-const albums = sequelize.define('albums', {
+class Albums extends Model{}
+Albums.init({
     id:{
         type:Sequelize.INTEGER,
         allowNull:false,
@@ -16,6 +14,7 @@ const albums = sequelize.define('albums', {
     picture_id: Sequelize.INTEGER,
     name: Sequelize.STRING,
     published: Sequelize.BOOLEAN
+}, {  sequelize, modelName:"users" 
 })
 
-module.exports = albums
+module.exports = Albums

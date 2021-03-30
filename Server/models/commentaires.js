@@ -1,10 +1,8 @@
-const db = 'mysql://root:root974@localhost:3306/sharepicts_974'
-const Sequelize = require('sequelize')
-const sequelize = new Sequelize(db, {
-    operatorsAliases:  false
-})
+const { Sequelize, DataTypes, Model } = require('sequelize')
+const sequelize = require('./init_db.js')
 
-const commentaires = sequelize.define('commentaires', {
+class Commentaires extends Model{}
+Commentaires.init({
     id:{
         type:Sequelize.INTEGER,
         allowNull:false,
@@ -15,7 +13,8 @@ const commentaires = sequelize.define('commentaires', {
     user_id: Sequelize.INTEGER, 
     picture_id: Sequelize.INTEGER,
     commentaire: Sequelize.STRING,
-    published_at: Sequelize.DATE
+    published_at: Sequelize.DATE    
+}, {  sequelize, modelName:"users" 
 })
 
-module.exports = commentaires
+module.exports = Commentaires

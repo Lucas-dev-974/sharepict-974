@@ -1,10 +1,8 @@
-const db = 'mysql://root:root974@localhost:3306/sharepicts_974'
-const Sequelize = require('sequelize')
-const sequelize = new Sequelize(db, {
-    operatorsAliases:  false
-})
+const { Sequelize, DataTypes, Model } = require('sequelize')
+const sequelize = require('./init_db.js')
 
-const notifications = sequelize.define('notifications', {
+class Notification extends Model{}
+Notification.init({
     id:{
         type:Sequelize.INTEGER,
         allowNull:false,
@@ -14,7 +12,7 @@ const notifications = sequelize.define('notifications', {
 
     user_id: Sequelize.INTEGER, 
     notif: Sequelize.STRING,
-    opened: Sequelize.STRING,
+    opened: Sequelize.STRING,    
+}, {  sequelize, modelName:"users" 
 })
-
-module.exports = notifications
+module.exports = Notification
