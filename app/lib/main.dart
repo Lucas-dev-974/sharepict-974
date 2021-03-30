@@ -1,33 +1,32 @@
+import 'package:app/album.dart';
+import 'package:app/home.dart';
+import 'package:app/models/home.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import './home.dart';
 
 void main() {
   runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: 'SharePic974',
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('SharePic974'),
-          actions: <Widget>[
-            TextButton.icon(
-              style: TextButton.styleFrom(primary: Colors.white),
-              onPressed: () {},
-              icon: Icon(Icons.account_circle),
-              label: Text('Favorites'),
-            ),
-          ],
+    return ChangeNotifierProvider<Home>(
+      create: (context) => Home(),
+      child: MaterialApp(
+        title: 'Testing Sample',
+        theme: ThemeData(
+          primarySwatch: Colors.blue,
+          visualDensity: VisualDensity.adaptivePlatformDensity,
         ),
-        body: Center(
-          child: Text('Hello World'),
-        ),
+        routes: {
+          HomePage.routeName: (context) => HomePage(),
+          Album.routeName: (context) => Album(),
+        },
+        initialRoute: HomePage.routeName,
       ),
     );
   }
 }
-
-

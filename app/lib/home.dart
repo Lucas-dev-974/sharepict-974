@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:app/home.dart';
-
-class Album extends StatelessWidget {
-  static String routeName = '/album';
+import 'package:app/album.dart';
+class HomePage extends StatelessWidget {
+  static String routeName = '/home';
 
 
   // This widget is the root of your application.
@@ -18,7 +17,8 @@ class Album extends StatelessWidget {
             TextButton.icon(
               style: TextButton.styleFrom(primary: Colors.white),
               onPressed: () {
-                Navigator.pushNamed(context, HomePage.routeName);
+                Navigator.pushNamed(context, Album.routeName);
+
               },
               icon: Icon(Icons.account_circle),
               label: Text('Favorites'),
@@ -26,7 +26,7 @@ class Album extends StatelessWidget {
           ],
         ),
         body: Center(
-          child: Text('Hello Album'),
+          child: Text('Hello Home'),
         ),
       ),
     );
