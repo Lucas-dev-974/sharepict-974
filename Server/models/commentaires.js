@@ -14,7 +14,7 @@ Commentaires.init({
     picture_id: Sequelize.INTEGER,
     commentaire: Sequelize.STRING,
     published_at: Sequelize.DATE    
-}, {  sequelize, modelName:"users" 
+}, {  sequelize, modelName:"commantaires" 
 })
 
 module.exports = Commentaires

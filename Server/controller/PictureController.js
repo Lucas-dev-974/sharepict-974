@@ -8,6 +8,7 @@ exports.add_picture = (req, res, next) => {
     upload(req, res, (err, rst) => {
         if(err) return res.json({ success: false, error: 'une erreur c\'est produite' })
     })
+    console.log(req.user);
     return res.json({success: true})
 }
 
