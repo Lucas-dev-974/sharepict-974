@@ -1,6 +1,7 @@
 function requireQueries(required, queries){
     let errors = []
     let result = []
+    
     required.forEach(element => {
         result[element] = false
         for(const [key, value] of Object.entries(queries)){
