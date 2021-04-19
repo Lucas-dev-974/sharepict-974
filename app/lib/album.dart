@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:app/home.dart';
+import 'package:app/appBar.dart';
 
 class Album extends StatelessWidget {
   static String routeName = '/album';
@@ -12,19 +11,7 @@ class Album extends StatelessWidget {
     return MaterialApp(
       title: 'SharePic974',
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('SharePic974'),
-          actions: <Widget>[
-            TextButton.icon(
-              style: TextButton.styleFrom(primary: Colors.white),
-              onPressed: () {
-                Navigator.pushNamed(context, HomePage.routeName);
-              },
-              icon: Icon(Icons.account_circle),
-              label: Text('Favorites'),
-            ),
-          ],
-        ),
+       appBar: headerNav('SharePic974', context),
         body: Center(
           child: Text('Hello Album'),
         ),
