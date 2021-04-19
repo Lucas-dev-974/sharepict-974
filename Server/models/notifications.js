@@ -13,6 +13,6 @@ Notification.init({
     user_id: Sequelize.INTEGER, 
     notif: Sequelize.STRING,
     opened: Sequelize.STRING,    
-}, {  sequelize, modelName:"users" 
+}, {  sequelize, modelName:"notifications" 
 })
 module.exports = Notification

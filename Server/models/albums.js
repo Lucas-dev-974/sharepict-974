@@ -14,7 +14,7 @@ Albums.init({
     picture_id: Sequelize.INTEGER,
     name: Sequelize.STRING,
     published: Sequelize.BOOLEAN
-}, {  sequelize, modelName:"users" 
+}, {  sequelize, modelName:"albums" 
 })
 
 module.exports = Albums

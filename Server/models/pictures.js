@@ -14,6 +14,6 @@ Pictures.init({
     name: Sequelize.STRING,
     path: Sequelize.STRING,
     status: Sequelize.STRING
-}, {  sequelize, modelName:"users" 
+}, {  sequelize, modelName:"pictures" 
 })
 module.exports = Pictures

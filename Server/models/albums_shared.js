@@ -5,7 +5,7 @@ class AlbumsShared extends Model{}
 AlbumsShared.init({
     id:{
         type:Sequelize.INTEGER,
-        allowNull:false,
+        allowNull:false,    
         primaryKey:true,
         autoIncrement:true,
     },
@@ -13,7 +13,7 @@ AlbumsShared.init({
     user_id: Sequelize.INTEGER, 
     album_id: Sequelize.INTEGER,
     user_shared_id: Sequelize.INTEGER,
-}, {  sequelize, modelName:"users" 
+}, {  sequelize, modelName:"albums_user" 
 })
 
 module.exports = AlbumsShared
