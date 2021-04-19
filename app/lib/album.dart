@@ -11,7 +11,7 @@ class Album extends StatelessWidget {
     return MaterialApp(
       title: 'SharePic974',
       home: Scaffold(
-       appBar: headerNav('SharePic974', context),
+        appBar: headerNav('SharePic974', context),
         body: Center(
           child: Text('Hello Album'),
         ),
@@ -19,5 +19,3 @@ class Album extends StatelessWidget {
     );
   }
 }
-
-

@@ -1,5 +1,7 @@
 import 'package:app/album.dart';
 import 'package:app/home.dart';
+import 'package:app/login.dart';
+import 'package:app/register.dart';
 import 'package:app/models/home.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -24,6 +26,8 @@ class MyApp extends StatelessWidget {
         routes: {
           HomePage.routeName: (context) => HomePage(),
           Album.routeName: (context) => Album(),
+          Login.routeName: (context) => Login(),
+          Register.routeName: (context) => Register(),
         },
         initialRoute: HomePage.routeName,
       ),

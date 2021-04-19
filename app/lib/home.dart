@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 import 'package:app/appBar.dart';
 
@@ -19,8 +20,3 @@ class HomePage extends StatelessWidget {
     );
   }
 }
-
-
-
-
-
