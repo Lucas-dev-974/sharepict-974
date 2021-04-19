@@ -1,6 +1,7 @@
+
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
-import 'package:app/album.dart';
+import 'package:app/appBar.dart';
+
 class HomePage extends StatelessWidget {
   static String routeName = '/home';
 
@@ -11,20 +12,7 @@ class HomePage extends StatelessWidget {
     return MaterialApp(
       title: 'SharePic974',
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('SharePic974'),
-          actions: <Widget>[
-            TextButton.icon(
-              style: TextButton.styleFrom(primary: Colors.white),
-              onPressed: () {
-                Navigator.pushNamed(context, Album.routeName);
-
-              },
-              icon: Icon(Icons.account_circle),
-              label: Text('Favorites'),
-            ),
-          ],
-        ),
+        appBar: headerNav('SharePic974', context),
         body: Center(
           child: Text('Hello Home'),
         ),
@@ -32,5 +20,3 @@ class HomePage extends StatelessWidget {
     );
   }
 }
-
-
