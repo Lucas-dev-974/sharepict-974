@@ -1,7 +1,12 @@
 import 'package:app/login.dart';
 import 'package:flutter/material.dart';
+<<<<<<< HEAD
 
 /// This is the main application widget.
+=======
+import 'package:app/appBar.dart';
+
+>>>>>>> 7027958be128d0ded746230831ae87dce72298e7
 class HomePage extends StatelessWidget {
   static String routeName = '/home';
 
@@ -10,6 +15,7 @@ class HomePage extends StatelessWidget {
     return MaterialApp(
       title: 'SharePic974',
       home: Scaffold(
+<<<<<<< HEAD
         appBar: AppBar(
           title: Text('SharePic974'),
           actions: <Widget>[
@@ -24,6 +30,9 @@ class HomePage extends StatelessWidget {
             ),
           ],
         ),
+=======
+        appBar: headerNav('SharePic974', context),
+>>>>>>> 7027958be128d0ded746230831ae87dce72298e7
         body: Center(
           child: Text('Hello Home'),
         ),
@@ -47,6 +56,7 @@ class MyStatefulWidget extends StatefulWidget {
   }
 }
 
+<<<<<<< HEAD
 /// This is the private State class that goes with MyStatefulWidget.
 class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   String dropdownValue = 'One';
@@ -88,3 +98,8 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
     );
   }
 }
+=======
+
+
+
+>>>>>>> 7027958be128d0ded746230831ae87dce72298e7
