@@ -1,5 +1,6 @@
 const { Sequelize, DataTypes, Model } = require('sequelize')
 const sequelize = require('./init_db.js')
+const { tableName } = require('./user.js')
 
 class AlbumsShared extends Model{}
 AlbumsShared.init({
@@ -10,10 +11,10 @@ AlbumsShared.init({
         autoIncrement:true,
     },
 
-    user_id: Sequelize.INTEGER, 
-    album_id: Sequelize.INTEGER,
-    user_shared_id: Sequelize.INTEGER,
-}, {  sequelize, modelName:"users" 
+    userId: {field:"user_id", type:Sequelize.INTEGER, references:"users"}, 
+    albumId: {field:"album_id" ,type:Sequelize.INTEGER, references:"albums"}, 
+    user_shared_id:  { type:Sequelize.INTEGER, references:"users"}, 
+}, {  sequelize, modelName:"albums_shared" ,tableName:"albums_shared", timestamps:false
 })
 
 module.exports = AlbumsShared

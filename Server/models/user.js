@@ -39,7 +39,7 @@ User.init({
         allowNull: false,
         type: Sequelize.STRING
     }    
-}, {  sequelize, modelName:"users" 
+}, {  sequelize, modelName:"users" , timestamps:false
 })
 
 module.exports = User

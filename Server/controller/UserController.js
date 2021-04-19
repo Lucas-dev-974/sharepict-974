@@ -1,11 +1,21 @@
 // Model import
 const { update } = require('../models/user.js');
-const User = require('../models/user.js')
-
+const User = require('../models/user.js');
+const AlbumsShared = require('../models/albums_shared.js');
+const Albums = require('../models/albums');
 // Import packages
-const utils = require('../services/utils.js')
-const bcrypt = require('bcrypt')
+const utils = require('../services/utils.js');
+const bcrypt = require('bcrypt');
 
+
+User.hasMany(Albums);
+Albums.belongsTo(User);
+
+AlbumsShared.belongsTo(User);
+User.hasMany(AlbumsShared);
+
+Albums.hasMany(AlbumsShared);
+AlbumsShared.belongsTo(Albums);
 
 exports.update_pp = async (req, res, next) => {
     // console.log(req);
@@ -53,4 +63,12 @@ exports.update_password = async (req, res, next) => {
 
 exports.delete_pp = async (req, res, next) => {
     
+}
+
+exports.listeAlbums = async (req, res) => {
+let albums=await User.findAll( {
+    include: [{ model: AlbumsShared, include: [{ model: Albums }], include: [{ model: User }] }]
+,where:{id:1}}).catch(err=>console.log(err));
+console.log(albums);
+res.json(albums);
 }

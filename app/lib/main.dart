@@ -4,7 +4,7 @@ import 'package:app/models/home.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import './home.dart';
-
+import 'mespartages.dart';
 void main() {
   runApp(MyApp());
 }
@@ -24,6 +24,7 @@ class MyApp extends StatelessWidget {
         routes: {
           HomePage.routeName: (context) => HomePage(),
           Album.routeName: (context) => Album(),
+          MesPartages.routeName: (context) => MesPartages(),
         },
         initialRoute: HomePage.routeName,
       ),
