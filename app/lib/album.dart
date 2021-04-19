@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 import 'package:app/home.dart';
 
 class Album extends StatelessWidget {
@@ -21,7 +20,7 @@ class Album extends StatelessWidget {
                 Navigator.pushNamed(context, HomePage.routeName);
               },
               icon: Icon(Icons.account_circle),
-              label: Text('Favorites'),
+              label: Text('Album'),
             ),
           ],
         ),
