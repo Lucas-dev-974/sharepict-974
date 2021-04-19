@@ -32,11 +32,11 @@ User.init({
     }, 
     
     email_verified:{
+        allowNull: true,
         type: Sequelize.BOOLEAN
     }, 
     
     password: {
-        allowNull: false,
         type: Sequelize.STRING
     }    
 }, {  sequelize, modelName:"users" 

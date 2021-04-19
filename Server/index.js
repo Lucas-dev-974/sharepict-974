@@ -8,7 +8,7 @@ const UserRoute = require('./routes/UserRoutes.js')
 const PictureRoute = require('./routes/PicturesRoute.js')
 
 // Uncomment next line to make table migration
-// require('./models/model_instant.js')
+//  require('./models/model_instant.js')
 
 // Express config
 const app = express()
