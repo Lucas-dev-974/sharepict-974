@@ -1,17 +1,18 @@
 // Import model
+const multer = require('multer');
 const Pictures = require('../models/pictures.js')
 
 // Import package
-const upload = require('../services/MulterMedias.js')
+const upload = require('../services/Medias.js')
 
-exports.add_picture = (req, res, next) => {
-    upload(req, res, (err, rst) => {
-        if(err) return res.json({ success: false, error: 'une erreur c\'est produite' })
-    })
-    console.log(req.user);
-    return res.json({success: true})
+exports.add_picture = (req, res, next) => { 
+    upload(req, res, function(err){
+        if(!req.file) return res.json({"success": false, "error": "Veuillez spécifié une image"})
+
+    })  
+
 }
 
-exports.add_pictures = (req, res, next) => {
-
+exports.update_pictures = (req, res, next) => {
+    res.send('ok')
 }
