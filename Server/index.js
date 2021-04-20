@@ -2,6 +2,7 @@
 const express = require('express')
 require('dotenv').config()
 
+global.base_path = __dirname
 // Import Route
 const AuthRoute = require('./routes/Auth.js')
 const UserRoute = require('./routes/UserRoutes.js')

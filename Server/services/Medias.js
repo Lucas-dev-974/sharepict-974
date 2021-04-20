@@ -11,12 +11,15 @@ let storage  = multer.diskStorage({
 })
 
 
-function filter(req, file, cb){
+async function filter(req, file, cb){
     let type = file.mimetype.split('/')[1] // Extension du fichier
-    if(type.match(/(jpg|JPG|jpeg|JPEG|png|PNG)$/)){
+    if(type.match(/(jpg|JPG|jpeg|JPEG|png|PNG)$/)){ // Vérifie si le fichier donnée est un fichier attendue c'est a dire une image
         cb(null, true)  
-        req.file = file
-    }else cb(new Error("Le fichier n'a pas été accepter, seul les extension jpg, jpeg, png son accepté"))
+        req.file = file                             // Sert à la verif dans le controller
+    }else{
+        cb(null, false)
+        req.file_error = "Le fichier n'a pas été accepter, seul les extension jpg, jpeg, png son accepté"   // Sert a get l'erreur dans le controller
+    } 
     
 }
 
