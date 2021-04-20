@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="849b6ff0-0ab8-4695-b280-4193444e5f63" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1qBsVJ1ykOm1ADvQmyv6M9QdrXF" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/AwesomeProject" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\aaron\AndroidStudioProjects\sharepict-974\app\assets" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="849b6ff0-0ab8-4695-b280-4193444e5f63" name="Default Changelist" comment="" />
+      <created>1616564339915</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1616564339915</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="413" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617727083160">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="413" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617727083160" />
+    <state x="100" y="100" width="1719" height="840" key="AVDManager" timestamp="1616825100158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="100" y="100" width="1719" height="840" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1616825100158" />
+    <state x="739" y="275" key="FileChooserDialogImpl" timestamp="1618892766196">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="739" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618892766196" />
+    <state x="460" y="165" key="SettingsEditor" timestamp="1616567319810">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="460" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1616567319810" />
+    <state x="615" y="242" key="run.anything.popup" timestamp="1616576402214">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="615" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616576402214" />
+    <state x="622" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1616576580405">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="622" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1616576580405" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/app/lib/liste_partage.dart</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
