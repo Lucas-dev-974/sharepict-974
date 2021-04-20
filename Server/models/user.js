@@ -32,8 +32,8 @@ User.init({
     }, 
     
     email_verified:{
-        allowNull: true,
-        type: Sequelize.BOOLEAN
+        type: Sequelize.BOOLEAN,
+        allowNull: true
     }, 
     
     password: {

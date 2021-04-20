@@ -4,6 +4,8 @@ const path = require('path');
 require('dotenv').config()
 // const TokenAuth = require('../services/JWToken.js').AuthToken
 const cors=require("cors");
+
+global.base_path = __dirname
 // Import Route
 const AuthRoute = require('./routes/Auth.js')
 const UserRoute = require('./routes/UserRoutes.js')
