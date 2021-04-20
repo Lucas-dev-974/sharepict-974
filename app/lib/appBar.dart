@@ -2,6 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:app/album.dart';
 import 'package:app/home.dart';
+import 'package:app/login.dart';
 
 AppBar headerNav(String title, page){
   return AppBar(
@@ -36,6 +37,16 @@ AppBar headerNav(String title, page){
               },
               icon: Icon(Icons.account_circle),
               label: Text('Mes albums'),
+            ),
+          ),
+          PopupMenuItem(
+            child: TextButton.icon(
+              style: TextButton.styleFrom(primary: Colors.black),
+              onPressed: () {
+                Navigator.pushNamed(page, Login.routeName);
+              },
+              icon: Icon(Icons.account_circle),
+              label: Text('Login'),
             ),
           ),
         ],
