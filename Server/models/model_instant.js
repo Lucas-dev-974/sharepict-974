@@ -13,3 +13,4 @@ let models = [user, picture, album, album_shared, notification, commentaires]
 models.forEach(model => {
     model.sync({force: true})
 })
+
