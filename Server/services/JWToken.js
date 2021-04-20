@@ -20,5 +20,5 @@ function TokenSignIn(user){
 }
 
 // Exports
-exports.AuthToken = (req, res, next) => AuthToken(req, res, next)
+exports.AuthToken   = (req, res, next) => AuthToken(req, res, next)
 exports.TokenSignIn = (user) => TokenSignIn(user)
