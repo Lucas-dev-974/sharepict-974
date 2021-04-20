@@ -7,6 +7,7 @@ global.base_path = __dirname
 const AuthRoute = require('./routes/Auth.js')
 const UserRoute = require('./routes/UserRoutes.js')
 const PictureRoute = require('./routes/PicturesRoute.js')
+const CommentaireRoute = require('./routes/CommentairesRoute.js')
 
 // Uncomment next line to make table migration
 // require('./models/model_instant.js')
@@ -19,7 +20,7 @@ app.use(express.json())
 app.use(AuthRoute);
 app.use(UserRoute);
 app.use(PictureRoute)
-
+app.use(CommentaireRoute)
 
 app.listen(8080, () => {
     console.log('Serveur à l\'écoute')

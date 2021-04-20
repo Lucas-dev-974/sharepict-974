@@ -16,7 +16,7 @@ function AuthToken(req, res, next){
 
 function TokenSignIn(user){
     const accessToken = jwt.sign(user, process.env.ACCESS_TOKEN_SECRET) // {expiresIn: "6h"} use it to expire token after 6 houres
-    return accessToken
+    return {token: accessToken, user: user}
 }
 
 // Exports
