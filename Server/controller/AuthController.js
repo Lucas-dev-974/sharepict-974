@@ -20,12 +20,10 @@ exports.login = async (req, res, next) => {
     if (!password_match) return res.json({ success: false, errors: "Mot de passe incorrecte" })
 
     // Set user token
-    const accessToken = token_services.TokenSignIn({
-        user: {
-            id: user.id, email: user.email, name: user.name, lastname: user.lastname, pseudo: user.pseudo
-        }
-    })
-    res.json({ Token: accessToken, success: true, user: user })
+    const token_data = token_services.TokenSignIn({user: {
+        id: user.id, email: user.email, name: user.name, lastname: user.lastname, pseudo: user.pseudo
+    }})
+    res.json({ Token: token_data.token, success: true, user: token_data.user })
 }
 
 exports.register = async (req, res, next) => {
@@ -52,6 +50,12 @@ exports.register = async (req, res, next) => {
     usr.save()
 
     // Set Token
+<<<<<<< HEAD
+    const token_data = token_services.TokenSignIn({user: {
+        id: usr.dataValues.id, email: usr.dataValues.email, name: usr.dataValues.name, lastname: usr.dataValues.lastname, pseudo: usr.dataValues.pseudo
+    }})
+    res.json({success: true, Token: token_data.token, user: token_data.user})
+=======
     const accessToken = token_services.TokenSignIn({
         user: {
             id: usr.dataValues.id, email: usr.dataValues.email, name: usr.dataValues.name, lastname: usr.dataValues.lastname, pseudo: usr.dataValues.pseudo
@@ -62,6 +66,7 @@ exports.register = async (req, res, next) => {
 
 
     // res.send("user")
+>>>>>>> ef903d338f9e4196ac9e8208182f1dbe70a781ac
 }
 
 exports.logout = (req, res, next) => {

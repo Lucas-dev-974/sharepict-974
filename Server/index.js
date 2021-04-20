@@ -10,6 +10,7 @@ global.base_path = __dirname
 const AuthRoute = require('./routes/Auth.js')
 const UserRoute = require('./routes/UserRoutes.js')
 const PictureRoute = require('./routes/PicturesRoute.js')
+const CommentaireRoute = require('./routes/CommentairesRoute.js')
 const headerApi = require('./configApi');
 
 var app = express()
@@ -20,7 +21,7 @@ app.use(headerApi);
 app.use(AuthRoute);
 app.use(UserRoute);
 app.use(PictureRoute)
-
+app.use(CommentaireRoute)
 
 
 app.listen(8080, () => {
