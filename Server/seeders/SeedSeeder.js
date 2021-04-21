@@ -1,3 +1,11 @@
 const user  = require('./UserSeed').seed
 const album = require('./AlbumsSeed').seed
-require('./PicturesSeeder')
+const picture = require('./PicturesSeeder').seed
+
+
+
+const seed = [user,album, picture]
+
+seed.forEach(seeder => {
+    seeder()
+})

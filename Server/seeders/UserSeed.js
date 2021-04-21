@@ -13,6 +13,6 @@ let data = {
 
 exports.seed = async function seed(){
     for(const dat in data){
-        await Album.create(data[dat])
+        await User.create(data[dat])
     }
 }
