@@ -12,13 +12,12 @@ exports.add = async (req, res, next) => {
         user_id: req.user.id,
         name: req.body.name
     })
-    album.save()
-
+    // await album.save()
     return res.json({"success": true})
 }   
 
 exports.append_pict = async (req, res, next) => {
-    let Validator = utils.requireQueries(['album_id', 'picture_id'], req.body)
+    let Validator = utils.requireQueries(['album_id', 'picture_id'], req.body) 
     if(Validator !== true) return res.json({"success": false, "error": Validator})
     const album = await Albums.findByPk(req.body.album_id)
     if(album === null) res.json({"success": false, "error": "L'album n'existe pas ou plus."})

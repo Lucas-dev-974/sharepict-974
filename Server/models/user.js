@@ -13,7 +13,6 @@ User.init({
 
     name:{
         type: Sequelize.STRING,
-
     },
 
     lastname:{
