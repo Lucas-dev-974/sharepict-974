@@ -1,8 +1,8 @@
 const { Sequelize, DataTypes, Model } = require('sequelize')
 const sequelize = require('./init_db.js')
 
-class Albums extends Model{}
-Albums.init({
+class Album_pictures extends Model{}
+Album_pictures.init({
     id:{
         type:Sequelize.INTEGER,
         allowNull:false,
@@ -10,10 +10,9 @@ Albums.init({
         autoIncrement:true,
     },
 
-    user_id: Sequelize.INTEGER, 
-    name: Sequelize.STRING,
-    published: Sequelize.BOOLEAN
-}, {  sequelize, modelName:"albums" 
+    album_id: Sequelize.INTEGER, 
+    picture_id: Sequelize.INTEGER,
+}, {  sequelize, modelName:"album_pictures" 
 })
 
-module.exports = Albums
+module.exports = Album_pictures

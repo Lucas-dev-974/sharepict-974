@@ -7,8 +7,9 @@ const album   = require('./albums.js')
 const album_shared = require('./albums_shared.js')
 const notification = require('./notifications.js')
 const commentaires = require('./commentaires.js')
+const album_pictures = require('./album_pictures.js')
 
-let models = [user, picture, album, album_shared, notification, commentaires]
+let models = [user, picture, album, album_shared, notification, commentaires, album_pictures]
 
 models.forEach(model => {
     model.sync({force: true})
