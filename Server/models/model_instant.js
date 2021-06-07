@@ -8,10 +8,12 @@ const album_shared = require('./albums_shared.js')
 const notification = require('./notifications.js')
 const commentaires = require('./commentaires.js')
 const album_pictures = require('./album_pictures.js')
-
+const { Sequelize, DataTypes, Model } = require('sequelize')
+const sequelize = require('./init_db.js')
 let models = [user, picture, album, album_shared, notification, commentaires, album_pictures]
 
 models.forEach(model => {
-    model.sync({force: true})
+         model.sync({force: true})
+
 })
 

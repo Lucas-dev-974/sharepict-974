@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="105e1edb-f03f-48b7-bd41-a8f5a4aea9be" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Server/controller/PicturesController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/controller/PicturesController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/controller/UserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/controller/UserController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/models/album_pictures.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/models/album_pictures.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/models/albums.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/models/albums.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/models/albums_shared.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/models/albums_shared.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/models/commentaires.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/models/commentaires.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/models/init_db.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/models/init_db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/models/model_instant.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/models/model_instant.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/models/notifications.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/models/notifications.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/models/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/routes/UserRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/routes/UserRoutes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/seeders/AlbumsSeed.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/seeders/AlbumsSeed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/seeders/PicturesSeeder.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/seeders/PicturesSeeder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/seeders/SeedSeeder.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/seeders/SeedSeeder.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/seeders/UserSeed.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/seeders/UserSeed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Server/services/Medias.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/appBar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/appBar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/login.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/login.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app/pubspec.yaml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1tMAd8Ft2TUAsQVp1IMeioqO821" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../dart-sdk" />
+    <property name="settings.editor.selected.configurable" value="dart.settings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="105e1edb-f03f-48b7-bd41-a8f5a4aea9be" name="Default Changelist" comment="" />
+      <created>1622568668982</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1622568668982</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1622570287061">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1622570287061" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1622570304346">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1622570304346" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1622997026189">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622997026189" />
+  </component>
+</project>

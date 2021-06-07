@@ -1,9 +1,17 @@
 const Album = require('../models/albums');
 let data = {
     1: {
-        user_id: "1",
+        userId: "1",
         name: "album 1"
     },   
+    2: {
+        userId: "1",
+        name: "album 2"
+    }, 
+    3: {
+        userId: "1",
+        name: "album 3"
+    }, 
 }
 
 exports.seed = async function seed(){

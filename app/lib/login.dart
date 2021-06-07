@@ -169,7 +169,7 @@ class Login extends StatelessWidget {
     );
     final loginButon = Material(
       borderRadius: BorderRadius.circular(30.0),
-      color: Color(0xff01A0C7),
+      color: Color(0xff01a0c7),
       child: MaterialButton(
         minWidth: MediaQuery.of(context).size.width,
         onPressed: () {

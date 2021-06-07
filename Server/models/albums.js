@@ -10,10 +10,11 @@ Albums.init({
         autoIncrement:true,
     },
 
-    user_id: Sequelize.INTEGER, 
+    userId:{field:"user_id", type:Sequelize.INTEGER,references:{ model:"users",key:"id" }}, 
+    //user_id:Sequelize.INTEGER,
     name: Sequelize.STRING,
     published: Sequelize.BOOLEAN
-}, {  sequelize, modelName:"albums" 
+}, {  sequelize, modelName:"albums" ,tableName:"albums"
 })
 
 module.exports = Albums

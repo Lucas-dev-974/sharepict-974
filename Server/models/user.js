@@ -38,7 +38,7 @@ User.init({
     password: {
         type: Sequelize.STRING
     }    
-}, {  sequelize, modelName:"users" 
+}, {  sequelize, modelName:"users" ,tableName:"users"
 })
 
 

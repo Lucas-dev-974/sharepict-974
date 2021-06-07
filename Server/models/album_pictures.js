@@ -10,9 +10,9 @@ Album_pictures.init({
         autoIncrement:true,
     },
 
-    album_id: Sequelize.INTEGER, 
-    picture_id: Sequelize.INTEGER,
-}, {  sequelize, modelName:"album_pictures" 
+    albumId:{field:"album_id", type:Sequelize.INTEGER,references:{ model:"albums",key:"id" }}, 
+    pictureId: {field:"picture_id", type:Sequelize.INTEGER, references:{ model:"pictures",key:"id" }}, 
+}, {  sequelize, modelName:"album_pictures" ,tableName:"album_pictures"
 })
 
 module.exports = Album_pictures

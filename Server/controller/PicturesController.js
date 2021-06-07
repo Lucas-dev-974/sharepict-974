@@ -4,7 +4,7 @@ const Pictures = require('../models/pictures.js')
 
 // Import package
 const fs     = require('fs')
-const upload = require('../services/Medias.js')
+const upload = require('../services/MulterMedias.js')
 const utils  = require('../services/utils.js')
 
 
