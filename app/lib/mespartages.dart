@@ -55,7 +55,7 @@ class _MesPartages extends State<MesPartages> {
 
     return Scaffold(
         appBar: headerNav('Mes partages', context),
-  
+  //backgroundColor: Color.fromRGBO(66, 66, 66, 1),
   body: Container(
 
     child:

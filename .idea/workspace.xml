@@ -1,30 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="assert" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
+  </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="NONE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="105e1edb-f03f-48b7-bd41-a8f5a4aea9be" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Server/controller/PicturesController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/controller/PicturesController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sharepict-974.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sharepict-974.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Server/controller/UserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/controller/UserController.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/models/album_pictures.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/models/album_pictures.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/models/albums.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/models/albums.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/models/albums_shared.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/models/albums_shared.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/models/commentaires.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/models/commentaires.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/models/init_db.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/models/init_db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/models/model_instant.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/models/model_instant.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/models/notifications.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/models/notifications.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/models/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/models/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/routes/UserRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/routes/UserRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/seeders/AlbumsSeed.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/seeders/AlbumsSeed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/seeders/PicturesSeeder.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/seeders/PicturesSeeder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/seeders/SeedSeeder.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/seeders/SeedSeeder.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/seeders/UserSeed.js" beforeDir="false" afterPath="$PROJECT_DIR$/Server/seeders/UserSeed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Server/services/Medias.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/appBar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/appBar.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/android/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/android/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/MaListe.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/MaListe.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/liste_partage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/liste_partage.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/lib/login.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/login.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/mespartages.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/mespartages.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/partages.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/partages.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/lib/users_partage.dart" beforeDir="false" afterPath="$PROJECT_DIR$/app/lib/users_partage.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app/pubspec.yaml" afterDir="false" />
     </list>
@@ -42,12 +56,106 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ResourceManagerPrefKey.ResourceType" value="DRAWABLE" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../dart-sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../KotlinApp" />
     <property name="settings.editor.selected.configurable" value="dart.settings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
+      <option name="TESTING_TYPE" value="0" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="INCLUDE_GRADLE_EXTRA_OPTIONS" value="true" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="FlutterRunConfigurationType" factoryName="Flutter">
+      <option name="filePath" value="$PROJECT_DIR$/app/lib/main.dart" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="FlutterTestConfigType" factoryName="Flutter Test">
+      <option name="testFile" value="C:\Users\aaron\AndroidStudioProjects\sharepict-974\app\lib\MaListe.dart" />
+      <option name="additionalArgs" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="sharepict-974" />
+      <option name="filePath" value="" />
+      <option name="vmParameters" value="" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" value="" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" value="" />
+      <option name="vmParameters" value="" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" value="" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -60,18 +168,73 @@
     </task>
     <servers />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1622570287061">
+    <state x="414" y="178" width="1092" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1623562504744">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1622570287061" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1622570304346">
+    <state x="414" y="178" width="1092" height="762" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623562504744" />
+    <state x="689" y="313" key="#com.intellij.ide.util.TreeFileChooserDialog" timestamp="1623523839343">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1622570304346" />
-    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1622997026189">
+    <state x="689" y="313" key="#com.intellij.ide.util.TreeFileChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623523839343" />
+    <state x="729" y="365" key="#com.intellij.tools.ToolEditorDialog" timestamp="1623523890987">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622997026189" />
+    <state x="729" y="365" key="#com.intellij.tools.ToolEditorDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623523890987" />
+    <state x="819" y="327" key="AndroidCreateXmlResourceDialog" timestamp="1623527472234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="819" y="327" key="AndroidCreateXmlResourceDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1623527472234" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1623571857906">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623571857906" />
+    <state width="930" height="158" key="GridCell.Tab.0.bottom" timestamp="1623524651165">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="930" height="158" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1623524651165" />
+    <state width="930" height="158" key="GridCell.Tab.0.center" timestamp="1623524651165">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="930" height="158" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1623524651165" />
+    <state width="930" height="158" key="GridCell.Tab.0.left" timestamp="1623524651165">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="930" height="158" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1623524651165" />
+    <state width="930" height="158" key="GridCell.Tab.0.right" timestamp="1623524651165">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="930" height="158" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1623524651165" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1623569200994">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1623569200994" />
+    <state x="855" y="270" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1623523891603">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="855" y="270" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.1920.1040@0.0.1920.1040" timestamp="1623523891603" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1623578233148">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1623578233148" />
+    <state x="624" y="229" width="672" height="678" key="search.everywhere.popup" timestamp="1623527046641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="624" y="229" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1623527046641" />
   </component>
 </project>

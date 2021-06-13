@@ -41,8 +41,11 @@ class _AlbumPartage extends State<AlbumPartage> {
                 children: <Widget> [ Text(
                     item["album"]["name"],
 
-                    style: TextStyle(fontFamily: "DayRoman")),
-                  ElevatedButton(onPressed: () {
+                    style: TextStyle(fontFamily: "DayRoman",color: Color.fromRGBO(238, 238, 238, 1), )),
+                  IconButton(
+                    color: Color.fromRGBO(255, 25, 25, 1),
+                    icon:Icon(Icons.delete),
+                    onPressed: () {
 
                     showDialog(context: context, builder: (context){ return Dialog(
                      child: Container(
@@ -53,7 +56,9 @@ class _AlbumPartage extends State<AlbumPartage> {
                           Text("Voulez-vous supprimer cet album ?"),
                         Text("Album : "+item["album"]["name"]),
 
-                        ElevatedButton(onPressed:  ()async{
+                        ElevatedButton(
+style: ElevatedButton.styleFrom( primary :Color.fromRGBO(255, 25, 25, 1)  ),
+                            onPressed:  ()async{
                           var uri = Uri.parse('http://127.0.0.1:8080/api/user/abumshared/delete');
 
                            http.post(uri,    headers: <String, String>{
@@ -69,8 +74,9 @@ class _AlbumPartage extends State<AlbumPartage> {
                       )
                     );
                     } );
-               }, child: Text("X")) ],
-              ),
+               }
+                  ) ]),
+
     )
             ).toList(),
     );

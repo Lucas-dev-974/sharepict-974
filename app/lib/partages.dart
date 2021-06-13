@@ -66,7 +66,8 @@ class _SharedAlbums extends State<SharedAlbums> {
               if (snapshot.hasData) {
 
             if( snapshot.data.length >0) {
-              return MaListe(snapshot.data[0]["albums_shareds"]);
+
+              return MaListe( snapshot.data[0]["albums_shareds"],snapshot.data);
             }else{
 
               return Container(

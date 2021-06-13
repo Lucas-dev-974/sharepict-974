@@ -78,10 +78,10 @@ exports.listeAlbums = async (req, res) => {
 exports.unlink = async (req, res) => {
    
 console.log(req.body);
-  //  AlbumsShared.destroy({where:{albumId:req.body.album,usersharedId:req.body.user } }).then(album=>{
+    AlbumsShared.destroy({where:{albumId:req.body.album,usersharedId:req.body.user } }).then(album=>{
 
      res.json({ "msg":"ok" });
-    //})
+    })
 }
 exports.getUsers=async (req, res)=>{
 console.log(req.body);
@@ -101,11 +101,10 @@ console.log(req.body);
 exports.share = async (req, res) => {
    
     let albums = await User.findAll({
-        include: [{ model: AlbumsShared, where: { usersharedId: 1 }, include: [{ model: Albums }] }],
+        include: [{ model: AlbumsShared, where: { usersharedId: 4 }, include: [{ model: Albums }] }],
 
     })
 
 
     res.json(albums);
 }
-    

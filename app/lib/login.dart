@@ -1,7 +1,6 @@
 import 'dart:convert';
-import 'dart:html';
 import 'dart:io';
-
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:app/register.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
@@ -110,8 +109,10 @@ Future<ApiResponse> authenticateUser(String email, String password, page) async 
       case 200:
         // Create storage
 
-        final storage =  window.localStorage;
-        storage['currentUser'] =  response.body;
+       // final storage =  window.localStorage;
+        //storage['currentUser'] =  response.body;
+      final SharedPreferences prefs = await SharedPreferences.getInstance();
+      prefs.setString('currentUser', response.body);
         Navigator.pushNamed(page, HomePage.routeName);
         _apiResponse.Data = User.fromJson(json.decode(response.body));
         break;

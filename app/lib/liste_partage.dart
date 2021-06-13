@@ -48,8 +48,20 @@ class _ListePartage extends State<ListePartage> {
     Column(children:
     _partages.map(
             (item)=>
+
+            Container(
+            decoration: BoxDecoration(
+            color: Color.fromRGBO(66, 66, 66, 1),
+    border: Border.all(
+    color: Color.fromRGBO(33, 33, 33, 1),
+    width: 1,
+    ),
+    borderRadius: BorderRadius.circular(12),
+    ),
+    child:
    ExpansionTile(
-     title: Text(item["name"]+" "+item["lastname"]),
+
+     title: Text(item["name"]+" "+item["lastname"], style:TextStyle(fontFamily: "DayRoman",color: Color.fromRGBO(238, 238, 238, 1) )),
      children: <Widget> [
 
                  Container(
@@ -67,7 +79,7 @@ class _ListePartage extends State<ListePartage> {
 
 
    )
-
+            )
     ).toList(),
     ) ]),
       );
